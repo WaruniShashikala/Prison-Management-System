@@ -1,0 +1,32 @@
+.update-jailor-form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .update-jailor-label {
+    font-weight: bold;
+  }
+  
+  .update-jailor-input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .update-jailor-submit-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-jailor-submit-button:hover {
+    background-color: #45a049;
+  }
+  

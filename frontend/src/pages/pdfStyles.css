@@ -1,0 +1,27 @@
+
+  
+  .containerPDF {
+    padding: 20px;
+    padding-left: 100px;
+  }
+  
+  h2 {
+    color: red;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    margin-bottom: 10px;
+  }
+  
+  .profile-label {
+    font-weight: bold;
+  }
+  
+  .profile-value {
+    margin-left: 10px;
+  }
+  
+  /* Add more styles as needed */
+  

@@ -1,0 +1,66 @@
+.staff-main {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.staff-main-function {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #4683B4;
+}
+.staff-main-function:hover{
+    background-color: #1D405C;
+}
+/* Default styles */
+.Jailor-chart_set {
+    display: flex;
+    margin-left: 400px;
+}
+
+.jailorCard,
+.jailorCard-chart {
+    margin-top: 20px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    width: 100%; /* Adjust width as needed */
+    max-width: 500px; /* Maximum width for responsiveness */
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3); /* Box shadow */
+}
+
+.staff-heading{
+    margin-top: 20px;
+    margin-left: 800px;
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+    .Jailor-chart_set {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .jailorCard,
+    .jailorCard-chart {
+        margin-left: 300px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .staff-main {
+        flex-direction: column;
+        margin-left: 300px;
+    }
+
+    .staff-main-function {
+        margin: 10px;
+    }
+}
+

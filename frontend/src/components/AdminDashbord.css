@@ -1,0 +1,32 @@
+/* AdminDashboard.css */
+
+.admin-main {
+    margin: 20px;
+    margin-left: 300px;
+  }
+  
+  .admin-function-set {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .admin-main-function {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    margin-left: 50px;
+    background-color:#4682B4;
+    
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: black; 
+  }
+  

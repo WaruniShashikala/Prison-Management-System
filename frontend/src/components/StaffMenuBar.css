@@ -1,0 +1,44 @@
+.Staffsidebar {
+    width: 300px; 
+    height: 100%; 
+    padding: 20px; 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    background: #4682B4;
+
+    
+  }
+  .menuItem{
+    
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+  }
+
+  .admin-h2{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    color: #000000;
+  }
+  .staff-h2{
+    font-size: 24px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #ffff;
+  }
+ .staff-menu-logo img{
+  width: 60px;
+  height: 80px;
+ 
+ }
+ .staff-menu-heding{
+  display: flex;
+  margin-top: 10px;
+ }
+ .staff-divider{
+  border-top: 2px solid #ffffff;
+ }
+  

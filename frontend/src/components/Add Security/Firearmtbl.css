@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.Fireamtble {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 350px;
+}
+
+.Fireamtble-thead {
+    background-color: #f2f2f2;
+}
+
+.Fireamtble-th, .Fireamtble-td {
+    padding: 18px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.Fireamtble-th {
+    font-weight: bold;
+}
+
+.Fireamtble-tr:nth-child(even) {
+    background-color: #240a0a;
+}
+
+.Fireamtble-tr:hover {
+    background-color: #ddd;
+}
+
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn-update {
+    background-color: #28a745;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+#btn-add {
+    margin-top: 30px;
+    background-color: #ffc107;
+}
+
+

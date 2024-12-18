@@ -1,0 +1,76 @@
+  .allHealthcareItems {
+    margin-left: 170px;
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .Dashboard-cards {
+    margin-left: 170px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pieChartTitle {
+    color: #89CFF0;
+    margin-left: 35px;
+  }
+
+  .pieChart {
+    margin-top: -15px;
+    width: 45%;
+    padding: 20px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
+  }
+
+  .healthcareitem {
+    display: inline-block;
+    width: 400px; 
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #4682b4;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center; 
+    white-space: nowrap; 
+  }
+  
+  .healthcareitem:hover {
+    background-color: #1d405c;
+    cursor: pointer;
+  }
+  
+  .itemtotal {
+    display: block; 
+    font-size: 52px;
+    font-weight: normal;
+    font-weight: bold;
+    margin-top: 5px; 
+  }  
+
+
+  
+  .healthcare-heading {
+    margin-left: 335px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .itemname {
+    font-size: 28px;
+    margin-top: 18px;
+  }
+
+  .chart-container {
+    width: 300px;
+    height: 200px;
+  }
+  

@@ -1,0 +1,100 @@
+
+.tabletransport {
+    margin-top: 30px;
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 380px;
+  }
+  
+  .tabletransport th,
+  .tabletransport td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .tabletransport th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .tabletransport tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  
+  
+  .btnaddtransport {
+    padding: 8px 16px;
+    background-color: #277cd7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-top: 20px;
+  }
+
+  .btnupdatetransport {
+    padding: 8px 16px;
+    background-color: #42c840;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+  .btndeletetransport{
+    padding: 8px 16px;
+    background-color: #d93434;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  
+  .btnaddtransport:hover {
+    background-color: #0056b3;
+  }
+
+  .btnupdate:hover {
+    background-color: #42c840;
+  }
+
+ 
+  .btndelete:hover{
+    background-color: #d93434;
+  }
+
+
+/* body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f2f2f2;
+}
+.btn {
+    background-color: #58bf5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btn:hover {
+    background-color: #45a049;
+} */

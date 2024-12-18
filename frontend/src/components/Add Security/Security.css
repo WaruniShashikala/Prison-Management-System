@@ -1,0 +1,40 @@
+.security-container {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin-top: 40px;
+  margin-left: 240px;
+}
+.clickable-part {
+    width: 300px;
+    height: 500px;
+    background-color: #3498db;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+.clickable-part:hover {
+    background-color: #2980b9;
+}
+.clickable-part img {
+
+    
+    width: 250px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.clickable-part span {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.security-image {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }

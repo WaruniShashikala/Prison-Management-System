@@ -1,0 +1,40 @@
+.form-containerlethel {
+    max-width: 400px;
+  margin-top: 20px;
+  border: 1px solid #ccc; /* Add this line to explicitly set the border */
+  border-radius: 4px; /* Optionally, add border-radius for consistency */
+  padding: 20px; 
+  }
+  
+  .SecurityForm-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .SecurityForm-inputs {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .SecurityForm-inputs:focus {
+    outline: none;
+    border-color: #007bff; /* Change the border color on focus */
+  }
+  
+  .SecurityForm-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .SecurityForm-btn:hover {
+    background-color: #2b3a4b; /* Darker shade of primary color on hover */
+  }
+  

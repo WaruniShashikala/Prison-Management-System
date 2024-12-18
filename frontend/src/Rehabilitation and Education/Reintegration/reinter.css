@@ -1,0 +1,7 @@
+@media print {
+    .print-center {
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+}

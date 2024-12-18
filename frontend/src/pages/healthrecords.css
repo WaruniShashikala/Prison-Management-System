@@ -1,0 +1,141 @@
+.healthrecordContainer{
+  margin-left: 320px;
+  margin-right: 20px;
+}
+
+.healthheader {
+  align-items: center;
+  margin-left: 450px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.totalhealthrecords{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.close{
+  color: #176B87;
+  font-size: 22px;
+}
+
+.healthrecordAdd{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 40px;
+  margin-left: 710px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #86B6F6;
+  border: none;
+}
+
+.healthrecordAdd:hover{
+  color: #000000;
+  cursor: pointer;
+}
+
+.HealthrecordUpdate{
+  width: 70px;
+  background-color: #176B87;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  border: none;
+}
+
+.HealthrecordView{
+  width: 70px;
+  background-color: #86B6F6;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  border: none;
+}
+
+.HealthrecordDelete {
+  width: 70px;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 5px;
+  border: none;
+}
+
+.HealthrecordDelete:hover {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.HealthrecordUpdate:hover {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.HealthrecordView:hover {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.healthrecordContainer h1 {
+  margin: 0;
+}
+
+.healthrecordContainer .search-bar{
+  display: flex;
+}
+
+.healthrecordContainer .search-bar input[type="text"] {
+  padding: 8px 12px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  width: 300px;
+}
+
+.healthrecordContainer .search-bar input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.healthrecordContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.healthrecordContainer table th, .healthrecordContainer table td {
+  padding: 10px;
+  border: 2px solid #ddd;
+  text-align: center;
+}
+
+.healthrecordContainer table th {
+  background-color: #f2f2f2;
+}
+
+.healthrecordContainer table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.healthrecordContainer table tr:hover {
+  background-color: #f2f2f2;
+}

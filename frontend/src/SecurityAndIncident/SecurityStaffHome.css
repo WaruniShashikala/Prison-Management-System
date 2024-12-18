@@ -1,0 +1,42 @@
+.security-home-container {
+  width: 100%;
+  height: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 40%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.card {
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.card-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+}
+
+.security-staff-card {
+  background-color: #0369a1;
+}
+
+.incident-reporting-card {
+  background-color: #0369a1;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,69 @@
+/* AddjailorForm.css */
+
+/* Base styles */
+.form-Jailor {
+  width: 500px;
+}
+
+.progressbar {
+ 
+  background-color: #ddd;
+  border-radius: 5px;
+ 
+}
+
+.progress {
+  height: 10px;
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.form-container {
+  padding: 10px;
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.body {
+  margin-bottom: 10px;
+}
+
+.addjailor-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Addjailor-button-next {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Addjailor-button-prev{
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Addjailor-button-submit{
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+

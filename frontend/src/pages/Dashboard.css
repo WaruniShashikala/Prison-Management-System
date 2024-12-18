@@ -1,0 +1,145 @@
+.dashboard-container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5px;
+    margin-left: 290px;
+  }
+  
+  .chart-card-gender {
+    width: 520px;
+    height: 557px;
+    padding: 10px;
+    margin-top: -50px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
+  }
+
+  .chart-card-status {
+    width: 41%;
+    height: 328px;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-top: 180px;
+    margin-left: -380px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
+  }
+
+  .chart-card-inmates {
+    width: 41%;
+    padding: 20px;
+    margin-right: -175px;
+    margin-top: -155px;
+    height: 25%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
+  }
+
+  .chart-card-inmates-title {
+    color: #89CFF0;
+    margin-left: 50px;
+  }
+
+  .chart-card-gender-title {
+    color: #89CFF0;
+    margin-left: 100px;
+    margin-bottom: 10px;
+  }
+
+  .chart-card-status-title {
+    color: #89CFF0;
+    margin-left: 145px;
+    margin-bottom: 10px;
+  }
+
+  .allItems {
+    margin-left: 310px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+
+  .item {
+    display: inline-block; 
+    margin: 20px;
+    padding: 10px;
+    background-color: #4682b4;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center; 
+    white-space: nowrap; 
+  }
+  
+  .item:hover {
+    background-color: #1d405c;
+    cursor: pointer;
+  }
+  
+  .total {
+    display: block; 
+    font-size: 32px;
+    font-weight: normal;
+    font-weight: bold;
+    margin-top: 5px; 
+  }  
+  
+  .heading {
+    margin-left: 335px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .admindashboard-chart-card-inmates {
+    margin-left: 50px;
+    width: 41%;
+    padding: 20px;
+    height: 22%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .admindashboard-chart-card-status {
+    width: 41%;
+    height: 320px;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-top: -80px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0.3, 0.3, 0.3, 0.3);
+  }
+
+  .admindashboard-chart-card-inmates-title {
+    color: #89CFF0;
+    margin-left: 50px;
+  }
+
+  .charts {
+    display: flex;
+
+  }
+
+  .admin-jailorCard {
+    margin-left: 50px;
+    width: 40%;
+    padding: 20px;
+    margin-top: 100px;
+    height: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .admin-jailorChart {
+    margin-left: 70px;
+  }
+  

@@ -1,0 +1,123 @@
+.appointmentContainer{
+  margin-left: 320px;
+  margin-right: 20px;
+}
+
+.appointmentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appointmentContainer h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #86B6F6;
+}
+
+.approvedappointmentContainer{
+  margin-left: 320px;
+}
+
+
+.appointmentContainer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.appointmentContainer th{
+  padding: 12px;
+  text-align: center;
+  border: 2px solid #ddd;
+}
+
+.appointmentContainer td {
+  padding: 12px;
+  text-align: center;
+  border: 2px solid #ddd;
+}
+
+.appointmentContainer th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.appointmentContainer tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+.PDFLink {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.PDFLink a {
+  color: #1890ff;
+  
+}
+
+.pdflink{
+  border: 1px solid #ffffff;
+  width: 80px;
+  padding: 5px 10px 5px 10px;
+  color: #000000;
+  background-color: #89CFF0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.approveButton{
+  width: 80px;
+  background-color: #4682B4;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px;
+  border: none;
+
+}
+
+.approveButton:hover{
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cancelButton{
+  width: 70px;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px;
+  border: none;
+  
+}
+
+.cancelButton:hover{
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-bar{
+  display: flex;
+}
+
+.searchbar{
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: -500px;
+}
+
+.total-appointments{
+  margin-top: 15px;
+  margin-right: 550px;
+  margin-left: -500px;
+  font-weight: bold;
+}

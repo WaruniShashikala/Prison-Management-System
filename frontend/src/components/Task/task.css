@@ -1,0 +1,60 @@
+.task-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-left: 500px;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  border-radius: 4px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-table th, .task-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.task-table th {
+  background-color: #f2f2f2;
+}
+
+.task-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.task-table tr:hover {
+  background-color: #ddd;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.update-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.add-btn {
+  background-color: #4CAF50;
+  color: white;
+}

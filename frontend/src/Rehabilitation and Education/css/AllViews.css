@@ -1,0 +1,95 @@
+/* styles.css */
+.r-modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a202c;
+    background-color: rgba(26, 32, 44, 0.5);
+    z-index: 50;
+}
+
+.r-sec-show {
+    display: flex;
+}
+
+.r-sec-hide {
+    display: none;
+}
+
+.r-modal-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    min-width: 40%;
+}
+
+.r-close-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.r-close-icon:hover {
+    transform: scale(1.1);
+}
+
+.r-staff-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.r-personal-info {
+    margin-bottom: 20px;
+    margin: 5px;
+}
+
+.r-personal-info h2 {
+    padding: 20px;
+    text-align: left;
+}
+
+.r-print-button {
+    background-color: #0e7490;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.r-print-button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+}
+
+.r-staff-icon {
+    padding: 10px;
+}
+
+.r-personal-details {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+
+
+.r-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: start;
+}

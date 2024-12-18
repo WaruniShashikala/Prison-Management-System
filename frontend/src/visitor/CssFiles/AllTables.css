@@ -1,0 +1,108 @@
+.v-home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.v-container {
+    display: flex;
+    flex: 1;
+}
+
+.v-main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.v-page-title {
+    padding: 24px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.v-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.v-search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.v-input-field {
+    padding: 15px;
+    background-color: #E2E8F0;
+    border: 2px solid #4299E1;
+    border-radius: 0.25rem;
+    outline: none;
+}
+
+.v-add-button {
+    padding: 15px 20px;
+    background-color: #4299E1;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.v-add-button:hover {
+    background-color: #3182CE;
+}
+
+.v-table-container {
+    overflow-x: auto;
+    width: 90%;
+    margin: 0 auto;
+    overflow-y: scroll;
+    height: 400px;
+    border-collapse: collapse;
+}
+
+.v-custom-table {
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+
+.v-custom-table th,
+.v-custom-table td {
+    padding: 12px;
+    border-bottom: 1px solid #E2E8F0;
+    text-align: left;
+}
+
+.v-custom-table th {
+    background-color: #CBD5E0;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #2D3748;
+}
+
+.v-custom-table td {
+    color: #4A5568;
+}
+
+.v-custom-table tbody tr:hover {
+    background-color: #EDF2F7;
+}
+
+#v-button-icons {
+    display: flex;
+    gap: 10px;
+}
+
+#v-button-icons button {
+    background-color: rgb(215, 211, 211);
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 10px;
+}

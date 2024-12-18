@@ -1,0 +1,47 @@
+.sidebar-stock {
+    width: 350px;
+    height: 100%;
+    background-color: #67B9CB;
+    color: #000000;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+  .sidelinks {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; 
+    
+  }
+  
+
+  .sidelinks li a {
+
+    font-size: 25px;
+    color: #000000
+
+  }
+
+  .sidebar-h2 {
+
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+
+  }
+  
+  .sidelinks{
+
+    list-style-type: none;
+    padding: 0;
+
+  }
+  
+  .sidelinks-li{
+    margin-top: 10px;
+    padding: 20px;
+  }
+
+
+ 

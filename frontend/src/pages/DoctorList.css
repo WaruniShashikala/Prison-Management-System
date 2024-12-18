@@ -1,0 +1,78 @@
+.all-Doctor {
+  padding: 20px;
+  margin-left: 300px;
+  margin-top: 100px;
+}
+.searchInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.searchButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
+
+.all-Doctor button {
+  margin-right: 10px;
+}
+
+.all-Doctor table {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.all-jDoctor th,
+.all-Doctor td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.AllDoctor-h1{
+  margin-left: 800px;
+  margin-top: 30px;
+}
+.all-Doctor th {
+  background-color: #f2f2f2;
+}
+
+.update-Doctor-button,
+.delete-Doctor-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.update-Doctor-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.update-Doctor-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-Doctor-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-Doctor-button:hover {
+  background-color: #da190b;
+}
+
+.addDoctorbutton{
+  margin-left: 850px;
+}

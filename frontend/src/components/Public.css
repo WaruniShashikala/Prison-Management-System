@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo-section {
+  background-color: #1d405c;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  max-width: 100%; /* Ensures the image does not exceed its container's width */
+  height: auto; /* Maintains the aspect ratio */
+}
+.navbar {
+  background-color: #333;
+  height: 50px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin: 10px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: #1d405c;
+}
+.slider-img{
+  width: 100%;
+  height: 500px;
+}
+
+.slick-dots li button:before {
+  font-size: 16px; /* Change the font size as needed */
+  color: #000; /* Change the color of the dots */
+}
+
+/* Optional: Change the active dot color */
+.slick-dots li.slick-active button:before {
+  color: #4682B4; /* Change the color of the active dot */
+}
+
+.history{
+  margin-top: 50px;
+  display: flex;
+}
+.history-img{
+  margin: 20px;
+}
+.history-p{
+  font-family: sans-serif;
+}
+
+/* Add style for the copyright notice */
+.footer {
+  background-color: #1d405c;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Center align items horizontally */
+  padding-bottom: 20px; /* Add some padding at the bottom */
+}
+
+.footer-left,
+.footer-mid,
+.footer-right {
+  margin: 20px;
+  color: #fff; /* Set text color to white */
+  text-align: center; /* Center align text */
+}
+
+.footer-left ul li a{
+  color:#fff;
+}
+.footer-right a {
+  color: #fff;
+}
+
+.footer-right a:hover {
+  color: #2800f1;
+}
+
+.footer-left ul li a:hover {
+  color: #2800f1;
+}
+
+/* Style the copyright notice */
+.footer p {
+  color: #fff;
+  margin-top: 10px; /* Add some top margin */
+  font-size: 14px; /* Adjust font size */
+}
+
+/* Update the media query */
+@media screen and (max-width: 768px) {
+  .logo-img {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer {
+    padding-bottom: 0; /* Remove padding at the bottom */
+  }
+}
